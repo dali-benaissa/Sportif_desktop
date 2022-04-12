@@ -5,6 +5,8 @@
  */
 package Model;
 
+import java.util.List;
+
 
 /**
  *
@@ -14,7 +16,7 @@ public class Panier {
     
     private int id;
     private int quantite ;
-    private String prod ;
+    private String prod  ;
 
     public Panier() {
     }
@@ -36,7 +38,102 @@ public class Panier {
     }
 
     public int getQuantite() {
-        return quantite;
+        return this.quantite;
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+        
+                
+         
     }
    
     /**

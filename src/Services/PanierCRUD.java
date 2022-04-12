@@ -94,6 +94,7 @@ public class PanierCRUD {
         
             ps.setInt(1, P.getQuantite());
             ps.setString(2, P.getProd());
+            ps.setInt(3, P.getId());
             ps.executeUpdate();
             
         } catch (SQLException ex) {
@@ -104,7 +105,7 @@ public class PanierCRUD {
 
     public void supprimer(int id) {
         try {
-            String req = "delete from Panier where id = ?";
+            String req = "delete from Panier where id=?";
             PreparedStatement ps = cnx2.prepareStatement(req);
             ps.setInt(1, id);
             ps.executeUpdate();
