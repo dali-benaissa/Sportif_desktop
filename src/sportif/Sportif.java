@@ -5,6 +5,7 @@
  */
 package sportif;
 
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
 import models.Exercice;
 import services.ServiceExercice;
 import utils.MaConnexion;
@@ -22,20 +23,60 @@ public class Sportif {
 
     /**
      * @param args the command line arguments
-     * @throws java.sql.SQLException
+     * @throws java.sql.SQLException 
      */
     public static void main(String[] args) throws SQLException {
            
        ServiceExercice p1 = new ServiceExercice();
-        Exercice p =new Exercice(1236548, "dazdazd", "pompes"," dazdqsdqs");
-         p1.createExercice(p);         
+        Exercice p = new Exercice("3issa", "3issa"," 3issa");  
+        // p1.createExercice(p);         
     
+       //  p1.modifier(p); 
+         
+//    p1.DeleteExercice(22);
     
+      //  System.out.println(p1.readExercices());
     
+        System.out.println( p1.RechercheById(24));
+       
+        System.out.println(p1.getByCode("3issa"));
+        
+        
+        System.out.println(p1.TriParCode());     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+      /********************************/
      ServiceRegime p2 = new ServiceRegime();
         Regime pr =new Regime(1236548, "dazdazd", "150g_Viande"," dazdqsdqs","dqsdqs","qsd","azd","adzz","azd"); 
-        p2.createRegime(pr);
+   //   p2.createRegime(pr);  
+         
+   //     p2.DeleteRegime(12);
+        
+        
+Regime pre = new Regime(43, "dan", "dali", "dan", "dali", "dan", "dali", "dali", "dali");
+        
+
+ p2.modifierRegime(pre); 
+ 
+
+     //   System.out.println(p2.readRegimes());
+
+
+
 }
+    
+    
+    
 }
 
 

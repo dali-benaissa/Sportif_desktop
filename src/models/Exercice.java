@@ -13,6 +13,11 @@ import java.sql.Date;
  */
 public class Exercice {
 
+    
+ 
+ 
+   
+
     //var
     private int id;
     private String code_exercice;
@@ -40,6 +45,9 @@ public class Exercice {
         this.description = description;
         
     }
+    
+    
+    
 
     public Exercice(int aInt, String string, String string0, int aInt0, String string1, Date date) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -77,6 +85,9 @@ public class Exercice {
     public void setDescription(String description) {
         this.description = description;
     }
+    
+    
+    
  
  
 

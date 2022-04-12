@@ -6,7 +6,6 @@
 package interfaces;
 
 import java.util.List;
-import models.Exercice;
 import models.Regime;
 
 /**
